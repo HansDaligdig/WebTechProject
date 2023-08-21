@@ -1,7 +1,3 @@
-  /* Google Fonts */
-  @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
-
-
 /* font-family: 'Archivo', sans-serif; */
 * {
     box-sizing: border-box;
@@ -11,10 +7,11 @@
     
   .hero-section {
     height: 100vh;
-    color: white;
+    color: rgb(255, 255, 255);
     background-image: 
-      linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)),
-      url("/assets/hero.jpg");
+    linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)),
+    url("/assets/hero.jpg");
+    max-width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -31,12 +28,13 @@
     white-space: nowrap;
     overflow: hidden;
     transform: translateY(-50%); 
+    color: #ffffff;
   }
 
   /* Animation */
     .hero-text{
     animation: typewriter 4s steps(44) 1s 1 normal both,
-               blinkTextCursor 500ms steps(44) infinite normal;
+               blinkTextCursor 1000ms steps(44) infinite normal;
   }
   @keyframes typewriter{
     from{width: 0;}
@@ -60,7 +58,7 @@
   }
   
   nav {
-    padding: 1em 1em;
+    padding: 1em 16em;
     transition: all .3s;
   }
   
@@ -86,7 +84,7 @@
   }
   
   li {
-    margin-right: 25px;
+    margin-right: 125px;
   }
   
   li:hover {
@@ -96,7 +94,7 @@
   
   .nav-link:hover {
     transform: scale(1.1);
-    color: #000000;
+    color: #ffffff;
   }
   
   .nav-link:active {
@@ -119,8 +117,6 @@
   
   .button {border-radius: 31px;}
 
-
-
 .line-1{
     position: relative;
     top: 50%;  
@@ -134,4 +130,63 @@
     transform: translateY(-50%);    
 }
 
+.container {
+    display: flex;
+    align-items: center;
+   }
+   
+.text-right {
+    font-size: 50px;
+    font-family: Verdana;
+}
 
+.section-spacing{
+    padding-top: 50px;
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+  }  
+
+.right-image{
+    margin-left: auto; /* Add some spacing between the text and image */
+    order: 2; /* Change the order of the image */
+    border-radius: 23px; /* Set border-radius to 50% for a circular shape */
+    width: 587px; /* Set the desired width */
+    height: 595px; /* Set the desired height */
+}
+
+.text-left{
+    font-size: 50px;
+    font-family: Verdana;
+}
+  
+.rounded-image {
+    border-radius: 23px; /* Set border-radius to 50% for a circular shape */
+    width: 587px; /* Set the desired width */
+    height: 595px; /* Set the desired height */
+}
+
+.background-color{
+    background-color: #267DFF;
+}  
+
+
+.parent {
+    display: flex;
+    justify-content: center; /* Horizontally center the child containers */
+    align-items: center; /* Vertically center the child containers */
+    height: 100vh; /* Adjust the height as needed */
+}
+  
+.container2 {
+    width: 298px;
+    height: 699px;
+    background-color: #F6F6F6;
+    margin: 30px; /* Add spacing between the containers */
+}
+
+.section-footer{
+    padding-bottom: 50px;
+}
