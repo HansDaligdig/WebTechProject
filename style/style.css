@@ -187,6 +187,35 @@
     margin: 30px; /* Add spacing between the containers */
 }
 
+.container3 {
+  width: 298px;
+  height: 699px;
+  background-color: #F6F6F6;
+  margin: 30px; /* Add spacing between the containers */
+}
+
+.container4 {
+  width: 298px;
+  height: 699px;
+  background-color: #F6F6F6;
+  margin: 30px; /* Add spacing between the containers */
+}
+
+.container5 {
+  width: 298px;
+  height: 699px;
+  background-color: #F6F6F6;
+  margin: 30px; /* Add spacing between the containers */
+}
+
 .section-footer{
     padding-bottom: 50px;
+}
+
+.article-section{
+  padding-left: 250px;
+}
+
+.header-statistics{
+  text-align: center;
 }
