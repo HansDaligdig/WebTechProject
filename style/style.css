@@ -2,7 +2,7 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  font-family: verdana;
+  font-family: 'Poppins';
 }
 
 .hero-section {
@@ -55,7 +55,7 @@
   position: absolute;
   top: 142px;
   left: 730px;
-  font-family: Inter;
+  font-family: 'Poppins';
   font-weight: Bold;
   font-size: 48px;
   opacity: 1;
@@ -65,11 +65,11 @@
   width: 624px;
   color: rgba(0, 0, 0, 1);
   position: absolute;
-  top: 270px;
+  top: 325px;
   left: 735px;
-  font-family: Inter;
+  font-family: Poppins;
   font-weight: normal;
-  font-size: 30px;
+  font-size: 20px;
   opacity: 1;
   text-align: left;
 }
@@ -80,7 +80,7 @@
   position: absolute;
   top: 784px;
   left: 80px;
-  font-family: Inter;
+  font-family: Poppins;
   font-weight: normal;
   font-size: 30px;
   opacity: 1;
@@ -110,7 +110,7 @@
   background: rgba(255, 255, 255, 1);
   opacity: 1;
   position: absolute;
-  top: 2048px;
+  top: 1800px;
   left: 0px;
   overflow: hidden;
 }
@@ -120,7 +120,7 @@
   position: absolute;
   top: 132px;
   left: 114px;
-  font-family: Inter;
+  font-family: 'Poppins';
   font-weight: Bold;
   font-size: 48px;
   opacity: 1;
@@ -130,11 +130,11 @@
   width: 624px;
   color: rgba(0, 0, 0, 1);
   position: absolute;
-  top: 267px;
+  top: 392px;
   left: 114px;
-  font-family: Inter;
+  font-family: 'Poppins';
   font-weight: normal;;
-  font-size: 30px;
+  font-size: 20px;
   opacity: 1;
   text-align: left;
 }
@@ -162,17 +162,21 @@
   background: rgba(38, 125, 255, 1);
   opacity: 1;
   position: absolute;
-  top: 3072px;
+  top: 2780px;
   left: 0px;
   overflow: hidden;
+}
+
+.statistics-padding{
+  padding-left: 50px;
 }
 .span-statistics {
   width: 646px;
   color: rgba(255, 255, 255, 1);
   position: absolute;
   top: 90px;
-  left: 397px;
-  font-family: Inter;
+  left: 650px;
+  font-family: 'Poppins';
   font-weight: Bold;
   font-size: 48px;
   opacity: 1;
@@ -188,7 +192,7 @@
   opacity: 1;
   position: absolute;
   top: 214px;
-  left: 216px;
+  left: 470px;
   overflow: hidden;
 }
 .container-1 {
@@ -238,8 +242,8 @@
   color: rgba(0, 0, 0, 1);
   position: absolute;
   top: 513px;
-  left: 236px;
-  font-family: Inter;
+  left: 494px;
+  font-family: 'Poppins';
   font-weight: normal;;
   font-size: 24px;
   opacity: 1;
@@ -250,8 +254,8 @@
   color: rgba(0, 0, 0, 1);
   position: absolute;
   top: 513px;
-  left: 591px;
-  font-family: Inter;
+  left: 850px;
+  font-family: 'Poppins';
   font-weight: normal;;
   font-size: 24px;
   opacity: 1;
@@ -262,8 +266,8 @@
   color: rgba(0, 0, 0, 1);
   position: absolute;
   top: 513px;
-  left: 946px;
-  font-family: Inter;
+  left: 1200px;
+  font-family: 'Poppins';
   font-weight: normal;;
   font-size: 24px;
   opacity: 1;
@@ -286,7 +290,7 @@
   position: absolute;
   top: 79px;
   left: 143px;
-  font-family: Inter;
+  font-family: 'Poppins';
   font-weight: Bold;
   font-size: 48px;
   opacity: 1;
@@ -298,7 +302,7 @@
   position: absolute;
   top: 182px;
   left: 139px;
-  font-family: Inter;
+  font-family: 'Poppins';
   font-weight: Bold;
   font-size: 36px;
   opacity: 1;
@@ -310,7 +314,7 @@
   position: absolute;
   top: 231px;
   left: 144px;
-  font-family: Inter;
+  font-family: 'Poppins';
   font-weight: normal;;
   font-size: 24px;
   opacity: 1;
@@ -368,7 +372,7 @@
   position: absolute;
   top: 279px;
   left: 38px;
-  font-family: Inter;
+  font-family: 'Poppins';
   font-weight: Bold;
   font-size: 33px;
   opacity: 1;
@@ -380,7 +384,7 @@
   position: absolute;
   top: 372px;
   left: 39px;
-  font-family: Inter;
+  font-family: 'Poppins';
   font-weight: normal;;
   font-size: 24px;
   opacity: 1;
@@ -407,7 +411,7 @@
   position: absolute;
   top: 279px;
   left: 444px;
-  font-family: Inter;
+  font-family: 'Poppins';
   font-weight: Bold;
   font-size: 33px;
   opacity: 1;
@@ -419,7 +423,7 @@
   position: absolute;
   top: 372px;
   left: 445px;
-  font-family: Inter;
+  font-family: 'Poppins';
   font-weight: normal;;
   font-size: 24px;
   opacity: 1;
@@ -480,7 +484,7 @@
   position: absolute;
   top: 279px;
   left: 850px;
-  font-family: Inter;
+  font-family: 'Poppins';
   font-weight: Bold;
   font-size: 33px;
   opacity: 1;
@@ -492,7 +496,7 @@
   position: absolute;
   top: 372px;
   left: 851px;
-  font-family: Inter;
+  font-family: 'Poppins';
   font-weight: normal;;
   font-size: 24px;
   opacity: 1;
@@ -515,7 +519,7 @@
   position: absolute;
   top: 44px;
   left: 140px;
-  font-family: Inter;
+  font-family: 'Poppins';
   font-weight: Bold;
   font-size: 36px;
   opacity: 1;
@@ -527,7 +531,7 @@
   position: absolute;
   top: 93px;
   left: 145px;
-  font-family: Inter;
+  font-family: 'Poppins';
   font-weight: normal;;
   font-size: 24px;
   opacity: 1;
@@ -571,7 +575,7 @@
   position: absolute;
   top: 476px;
   left: 177px;
-  font-family: Inter;
+  font-family: 'Poppins';
   font-weight: Bold;
   font-size: 33px;
   opacity: 1;
@@ -583,7 +587,7 @@
   position: absolute;
   top: 569px;
   left: 178px;
-  font-family: Inter;
+  font-family: 'Poppins';
   font-weight: normal;;
   font-size: 24px;
   opacity: 1;
@@ -610,7 +614,7 @@
   position: absolute;
   top: 476px;
   left: 583px;
-  font-family: Inter;
+  font-family: 'Poppins';
   font-weight: Bold;
   font-size: 33px;
   opacity: 1;
@@ -622,7 +626,7 @@
   position: absolute;
   top: 569px;
   left: 584px;
-  font-family: Inter;
+  font-family: 'Poppins';
   font-weight: normal;;
   font-size: 24px;
   opacity: 1;
@@ -683,7 +687,7 @@
   position: absolute;
   top: 476px;
   left: 989px;
-  font-family: Inter;
+  font-family: 'Poppins';
   font-weight: Bold;
   font-size: 33px;
   opacity: 1;
@@ -695,7 +699,7 @@
   position: absolute;
   top: 569px;
   left: 990px;
-  font-family: Inter;
+  font-family: 'Poppins';
   font-weight: normal;;
   font-size: 24px;
   opacity: 1;
@@ -718,7 +722,7 @@
   position: absolute;
   top: 44px;
   left: 140px;
-  font-family: Inter;
+  font-family: 'Poppins';
   font-weight: Bold;
   font-size: 36px;
   opacity: 1;
@@ -730,7 +734,7 @@
   position: absolute;
   top: 93px;
   left: 145px;
-  font-family: Inter;
+  font-family: 'Poppins';
   font-weight: normal;;
   font-size: 24px;
   opacity: 1;
@@ -774,7 +778,7 @@
   position: absolute;
   top: 476px;
   left: 177px;
-  font-family: Inter;
+  font-family: 'Poppins';
   font-weight: Bold;
   font-size: 33px;
   opacity: 1;
@@ -786,7 +790,7 @@
   position: absolute;
   top: 569px;
   left: 178px;
-  font-family: Inter;
+  font-family: 'Poppins';
   font-weight: normal;;
   font-size: 24px;
   opacity: 1;
@@ -813,7 +817,7 @@
   position: absolute;
   top: 476px;
   left: 583px;
-  font-family: Inter;
+  font-family: 'Poppins';
   font-weight: Bold;
   font-size: 33px;
   opacity: 1;
@@ -825,7 +829,7 @@
   position: absolute;
   top: 569px;
   left: 584px;
-  font-family: Inter;
+  font-family: 'Poppins';
   font-weight: normal;;
   font-size: 24px;
   opacity: 1;
@@ -886,7 +890,7 @@
   position: absolute;
   top: 476px;
   left: 989px;
-  font-family: Inter;
+  font-family: 'Poppins';
   font-weight: Bold;
   font-size: 33px;
   opacity: 1;
@@ -898,7 +902,7 @@
   position: absolute;
   top: 569px;
   left: 990px;
-  font-family: Inter;
+  font-family: 'Poppins';
   font-weight: normal;;
   font-size: 24px;
   opacity: 1;
@@ -929,19 +933,22 @@
 
 h1 {
   margin: 0 0 3rem 0;
-  font-family: verdana;
+  font-family: 'Poppins';
 }
 
 p {
-  font-family: verdana;
+  font-family: 'Poppins';
   text-shadow: 2px 2px black;
   letter-spacing: 3px;
   color: rgb(0, 0, 0);
 }
 
 nav {
-  padding: 1em 16em;
+  padding: 2em 10em;
   transition: all 0.3s;
+  position: -webkit-sticky;
+	position: sticky;
+	top: 0;
 }
 
 nav:hover {
@@ -962,7 +969,7 @@ ul {
 
 .logo:hover {
   text-decoration: none;
-  cursor: default;
+  cursor: pointer;
 }
 
 li {
@@ -995,6 +1002,13 @@ li:hover {
   font-size: 26px;
   font-weight: bold;
   margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #ffffff;
+  color: #267dff;
 }
 
 .button {
@@ -1021,7 +1035,7 @@ li:hover {
 
 .text-right {
   font-size: 50px;
-  font-family: Verdana;
+  font-family: 'Poppins';
 }
 
 .section-spacing {
@@ -1043,7 +1057,7 @@ li:hover {
 
 .text-left {
   font-size: 50px;
-  font-family: Verdana;
+  font-family: 'Poppins';
 }
 
 .rounded-image {
