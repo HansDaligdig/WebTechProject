@@ -1302,3 +1302,120 @@ li:hover {
   opacity: 0;
   transition: opacity ease-in-out 0.25s;
 }
+
+
+.pie-chart {
+  width: 273px;
+  height: 266px;
+  top: 233px;
+  left: 119px;
+  position: absolute;
+  position: absolute;
+  border-radius: 50%;
+  background: conic-gradient(from 0deg, #41b8d5 0% 74%, #2d8bba 20% 26%);
+}
+
+.pie-chart2 {
+  width: 273px;
+  height: 266px;
+  top: 381px;
+  left: 490px;
+  position: absolute;
+  border-radius: 50%;
+  background: conic-gradient(from 90deg, #41b8d5 0% 70%, #2d8bba 20% 30%);
+}
+
+.pie-chart3 {
+  width: 273px;
+  height: 266px;
+  top: 713px;
+  left: 1418px;
+  position: absolute;
+  border-radius: 50%;
+  background: conic-gradient(from 150deg, #41b8d5 0% 56%, #2d8bba 20% 44%);
+}
+
+.pie-chart4 {
+  width: 273px;
+  height: 266px;
+  top: 817px;
+  left: 968px;
+  position: absolute;
+  border-radius: 50%;
+  background: conic-gradient(from 0deg, #41b8d5 0% 23%, #2d8bba 20% 77%);
+}
+
+.pie-chart5 {
+  width: 273px;
+  height: 266px;
+  top: 1038px;
+  left: 1258px;
+  position: absolute;
+  border-radius: 50%;
+  background: conic-gradient(from 0deg, #41b8d5 0% 93%, #2d8bba 20% 7%);
+}
+
+.pie-chart-label {
+  width: 646px;
+  color: white;
+  position: absolute;
+  top: 314px;
+  left: -5px;
+  font-family: "Poppins";
+  font-weight: Bold;
+  font-size: 48px;
+  opacity: 1;
+  text-align: center;
+}
+
+.pie-chart-label2 {
+  width: 646px;
+  color: white;
+  position: absolute;
+  top: 517px;
+  left: 262px;
+  font-family: "Poppins";
+  font-weight: Bold;
+  font-size: 48px;
+  opacity: 1;
+  text-align: center;
+}
+
+.pie-chart-label3 {
+  width: 646px;
+  color: white;
+  position: absolute;
+  top: 828px;
+  left: 1164px;
+  font-family: "Poppins";
+  font-weight: Bold;
+  font-size: 48px;
+  opacity: 1;
+  text-align: center;
+}
+
+.pie-chart-label4 {
+  width: 646px;
+  color: white;
+  position: absolute;
+  top: 858px;
+  left: 839px;
+  font-family: "Poppins";
+  font-weight: Bold;
+  font-size: 48px;
+  opacity: 1;
+  text-align: center;
+}
+
+.pie-chart-label5 {
+  width: 646px;
+  color: white;
+  position: absolute;
+  top: 1170px;
+  left: 1097px;
+  font-family: "Poppins";
+  font-weight: Bold;
+  font-size: 48px;
+  opacity: 1;
+  text-align: center;
+}
