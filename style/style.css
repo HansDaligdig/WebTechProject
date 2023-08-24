@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 /* font-family: 'Archivo', sans-serif; */
 * {
   box-sizing: border-box;
@@ -404,6 +408,71 @@ a:visited {
   color: #f6f6f6;
 }
 
+.article-container2:hover span.span-good,
+.article-container2:hover span.span-good-text{
+  color: #f6f6f6;
+}
+
+.article-spacing4:hover span.span-interview,
+.article-spacing4:hover span.span-interview-text{
+  color: #f6f6f6;
+}
+
+.div-news-spacing1:hover span.span-setting,
+.div-news-spacing1:hover span.span-settting-text{
+  color: #f6f6f6;
+}
+
+.div-news-spacing1:hover {
+  background-color: #267dff;
+}
+
+.div-news-good:hover{
+  background-color: #267dff;
+}
+
+.div-news-good:hover span.span-good-network,
+.div-news-good:hover span.span-good-network-text{
+  color: #f6f6f6;
+}
+
+.div-interview2:hover{
+  background-color: #267dff;
+}
+
+.div-interview2:hover span.span-ace,
+.div-interview2:hover span.span-ace-text{
+  color: #f6f6f6;
+}
+
+.div-explore-space1:hover{
+  background-color: #267dff;
+}
+
+.div-explore-space1:hover span.span-more,
+.div-explore-space1:hover span.span-more-text{
+  color: #f6f6f6;
+}
+
+.div-exploremore:hover{
+  background-color: #267dff;
+}
+
+.div-exploremore:hover span.span-network-explore,
+.div-exploremore:hover span.span-network-explore-text{
+  color: #f6f6f6;
+}
+
+.div-space-ace2:hover{
+  background-color: #267dff;
+}
+
+.div-space-ace2:hover span.span-ace-more,
+.div-space-ace2:hover span.span-ace-more-text{
+  color: #f6f6f6;
+}
+
+
 .article-spacing2 {
   width: 274px;
   height: 223px;
@@ -425,7 +494,7 @@ a:visited {
   width: 256px;
   color: rgba(0, 0, 0, 1);
   position: absolute;
-  top: 279px;
+  top: 266px;
   left: 38px;
   font-family: "Poppins";
   font-weight: Bold;
@@ -494,8 +563,8 @@ a:visited {
   width: 256px;
   color: black;
   position: absolute;
-  top: 279px;
-  left: 444px;
+  top: 259px;
+  left: 43px;
   font-family: "Poppins";
   font-weight: Bold;
   font-size: 33px;
@@ -506,8 +575,8 @@ a:visited {
   width: 296px;
   color: black;
   position: absolute;
-  top: 372px;
-  left: 445px;
+  top: 369px;
+  left: 43px;
   font-family: "Poppins";
   font-weight: normal;
   font-size: 24px;
@@ -523,8 +592,8 @@ a:visited {
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 34px;
-  left: 445px;
+  top: 27px;
+  left: 43px;
   border-top-left-radius: 23px;
   border-top-right-radius: 23px;
   border-bottom-left-radius: 23px;
@@ -560,7 +629,7 @@ a:visited {
   opacity: 1;
   position: absolute;
   top: 34px;
-  left: 851px;
+  left: 38px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
@@ -570,8 +639,8 @@ a:visited {
   width: 256px;
   color: rgba(0, 0, 0, 1);
   position: absolute;
-  top: 279px;
-  left: 850px;
+  top: 269px;
+  left: 42px;
   font-family: "Poppins";
   font-weight: Bold;
   font-size: 33px;
@@ -583,7 +652,7 @@ a:visited {
   color: rgba(0, 0, 0, 1);
   position: absolute;
   top: 372px;
-  left: 851px;
+  left: 43px;
   font-family: "Poppins";
   font-weight: normal;
   font-size: 24px;
@@ -627,7 +696,7 @@ a:visited {
 .div-news-spacing1 {
   width: 351px;
   height: 554px;
-  background: rgba(38, 125, 255, 1);
+  background: #f6f6f6;
   opacity: 1;
   position: absolute;
   top: 197px;
@@ -637,6 +706,7 @@ a:visited {
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transition: background-color 0.3s ease-in-out;
 }
 .div-news-spacing2 {
   width: 274px;
@@ -647,8 +717,8 @@ a:visited {
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 231px;
-  left: 177px;
+  top: 31px;
+  left: 38px;
   border-top-left-radius: 23px;
   border-top-right-radius: 23px;
   border-bottom-left-radius: 23px;
@@ -656,10 +726,10 @@ a:visited {
 }
 .span-setting {
   width: 256px;
-  color: rgba(255, 255, 255, 1);
+  color: black;
   position: absolute;
-  top: 476px;
-  left: 177px;
+  top: 263px;
+  left: 35px;
   font-family: "Poppins";
   font-weight: Bold;
   font-size: 33px;
@@ -670,8 +740,8 @@ a:visited {
   width: 296px;
   color: rgba(0, 0, 0, 1);
   position: absolute;
-  top: 569px;
-  left: 178px;
+  top: 366px;
+  left: 35px;
   font-family: "Poppins";
   font-weight: normal;
   font-size: 24px;
@@ -691,13 +761,14 @@ a:visited {
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transition: background-color 0.3s ease-in-out;
 }
 .span-good-network {
   width: 256px;
   color: rgba(0, 0, 0, 1);
   position: absolute;
-  top: 476px;
-  left: 583px;
+  top: 256px;
+  left: 41px;
   font-family: "Poppins";
   font-weight: Bold;
   font-size: 33px;
@@ -708,8 +779,8 @@ a:visited {
   width: 296px;
   color: rgba(0, 0, 0, 1);
   position: absolute;
-  top: 569px;
-  left: 584px;
+  top: 366px;
+  left: 42px;
   font-family: "Poppins";
   font-weight: normal;
   font-size: 24px;
@@ -725,7 +796,7 @@ a:visited {
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 231px;
+  top: 224px;
   left: 584px;
   border-top-left-radius: 23px;
   border-top-right-radius: 23px;
@@ -745,6 +816,7 @@ a:visited {
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transition: background-color 0.3s ease-in-out;
 }
 .div-interview3 {
   width: 273px;
@@ -755,8 +827,8 @@ a:visited {
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 231px;
-  left: 990px;
+  top: 28px;
+  left: 45px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
@@ -766,8 +838,8 @@ a:visited {
   width: 256px;
   color: rgba(0, 0, 0, 1);
   position: absolute;
-  top: 476px;
-  left: 989px;
+  top: 263px;
+  left: 55px;
   font-family: "Poppins";
   font-weight: Bold;
   font-size: 33px;
@@ -778,8 +850,8 @@ a:visited {
   width: 296px;
   color: rgba(0, 0, 0, 1);
   position: absolute;
-  top: 569px;
-  left: 990px;
+  top: 362px;
+  left: 56px;
   font-family: "Poppins";
   font-weight: normal;
   font-size: 24px;
@@ -833,6 +905,7 @@ a:visited {
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transition: background-color 0.3s ease-in-out;
 }
 .div-explore-space2 {
   width: 274px;
@@ -854,8 +927,8 @@ a:visited {
   width: 256px;
   color: rgba(0, 0, 0, 1);
   position: absolute;
-  top: 476px;
-  left: 177px;
+  top: 267px;
+  left: 37px;
   font-family: "Poppins";
   font-weight: Bold;
   font-size: 33px;
@@ -866,8 +939,8 @@ a:visited {
   width: 296px;
   color: rgba(0, 0, 0, 1);
   position: absolute;
-  top: 569px;
-  left: 178px;
+  top: 371px;
+  left: 36px;
   font-family: "Poppins";
   font-weight: normal;
   font-size: 24px;
@@ -887,13 +960,14 @@ a:visited {
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transition: background-color 0.3s ease-in-out;
 }
 .span-network-explore {
   width: 256px;
   color: rgba(0, 0, 0, 1);
   position: absolute;
-  top: 476px;
-  left: 583px;
+  top: 262px;
+  left: 41px;
   font-family: "Poppins";
   font-weight: Bold;
   font-size: 33px;
@@ -904,8 +978,8 @@ a:visited {
   width: 296px;
   color: rgba(0, 0, 0, 1);
   position: absolute;
-  top: 569px;
-  left: 584px;
+  top: 364px;
+  left: 39px;
   font-family: "Poppins";
   font-weight: normal;
   font-size: 24px;
@@ -931,7 +1005,7 @@ a:visited {
 .div-space-ace2 {
   width: 351px;
   height: 554px;
-  background: rgba(38, 125, 255, 1);
+  background: #ffffff;
   opacity: 1;
   position: absolute;
   top: 197px;
@@ -941,6 +1015,7 @@ a:visited {
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transition: background-color 0.3s ease-in-out;
 }
 .div-space-ace3 {
   width: 273px;
@@ -951,8 +1026,8 @@ a:visited {
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 231px;
-  left: 990px;
+  top: 27px;
+  left: 44px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
@@ -960,10 +1035,10 @@ a:visited {
 }
 .span-ace-more {
   width: 256px;
-  color: rgba(255, 255, 255, 1);
+  color: black;
   position: absolute;
-  top: 476px;
-  left: 989px;
+  top: 260px;
+  left: 55px;
   font-family: "Poppins";
   font-weight: Bold;
   font-size: 33px;
@@ -972,10 +1047,10 @@ a:visited {
 }
 .span-ace-more-text {
   width: 296px;
-  color: rgba(255, 255, 255, 1);
+  color: black;
   position: absolute;
-  top: 569px;
-  left: 990px;
+  top: 364px;
+  left: 57px;
   font-family: "Poppins";
   font-weight: normal;
   font-size: 24px;
@@ -984,7 +1059,7 @@ a:visited {
 }
 
 .hero-padding {
-  padding-top: 341px;
+  padding-top: 312px;
 }
 
 /* Animation */
@@ -1045,6 +1120,7 @@ ul {
   flex: 1 0 23em;
   font-weight: 600;
   letter-spacing: 2px;
+  font-size: 20px;
 }
 
 .logo:hover {
@@ -1086,6 +1162,7 @@ li:hover {
   margin-right: auto;
   transition-duration: 0.4s;
   cursor: pointer;
+  height: 60px;
 }
 
 .start-text{
@@ -1214,3 +1291,5 @@ li:hover {
   opacity: 0;
   transition: opacity ease-in-out 0.25s;
 }
+
+/* media query */
