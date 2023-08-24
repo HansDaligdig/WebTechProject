@@ -12,11 +12,22 @@ html{
 a:link {
   color: white;
   text-decoration: none;
+  transition: color;
 }
 
+.a:hover {
+  transform: scale(1.1);
+  text-decoration: none;
+  color: #267dff;
+}
 a:visited {
   color: white;
   text-decoration: none;
+  transition: color;
+}
+
+a:visited:hover {
+  color: #267dff;
 }
 
 .hero-section {
@@ -85,7 +96,7 @@ a:visited {
   font-weight: normal;
   font-size: 20px;
   opacity: 1;
-  text-align: left;
+  text-align: justify;
 }
 
 .header-text {
@@ -189,7 +200,7 @@ a:visited {
   font-weight: normal;
   font-size: 20px;
   opacity: 1;
-  text-align: left;
+  text-align: justify;
 }
 .div-career-development {
   width: 549px;
@@ -210,11 +221,11 @@ a:visited {
 
 .div-statistics {
   width: 100%;
-  height: 1024px;
-  background: rgba(38, 125, 255, 1);
+  height: 2480px;
+  background: white;
   opacity: 1;
   position: absolute;
-  top: 2780px;
+  top: 2676px;
   left: 0px;
 }
 
@@ -223,9 +234,9 @@ a:visited {
 }
 .span-statistics {
   width: 646px;
-  color: rgba(255, 255, 255, 1);
+  color: black;
   position: absolute;
-  top: 90px;
+  top: 73px;
   left: 650px;
   font-family: "Poppins";
   font-weight: Bold;
@@ -233,6 +244,7 @@ a:visited {
   opacity: 1;
   text-align: center;
 }
+
 .div-container {
   width: 100%;
   height: 699px;
@@ -285,28 +297,28 @@ a:visited {
   border-bottom-right-radius: 34px;
 }
 .span-container1 {
-  width: 258px;
+  width: 773px;
   color: rgba(0, 0, 0, 1);
   position: absolute;
-  top: 513px;
-  left: 494px;
+  top: 248px;
+  left: 941px;
   font-family: "Poppins";
   font-weight: normal;
   font-size: 24px;
   opacity: 1;
-  text-align: center;
+  text-align: justify;
 }
 .span-container2 {
-  width: 258px;
+  width: 773px;
   color: rgba(0, 0, 0, 1);
   position: absolute;
-  top: 513px;
-  left: 850px;
+  top: 704px;
+  left: 105px;
   font-family: "Poppins";
   font-weight: normal;
   font-size: 24px;
   opacity: 1;
-  text-align: center;
+  text-align: justify;
 }
 
 .span-container3 {
@@ -328,7 +340,7 @@ a:visited {
   background: rgba(255, 255, 255, 1);
   opacity: 1;
   position: absolute;
-  top: 3804px;
+  top: 5000px;
   left: 0px;
 }
 .span-article {
@@ -490,7 +502,7 @@ a:visited {
   border-bottom-right-radius: 23px;
 }
 
-.header-goal{
+.header-goal {
   width: 256px;
   color: rgba(0, 0, 0, 1);
   position: absolute;
@@ -503,7 +515,7 @@ a:visited {
   text-align: left;
 }
 
-.header-goal-text{
+.header-goal-text {
   width: 296px;
   color: rgba(0, 0, 0, 1);
   position: absolute;
@@ -556,7 +568,7 @@ a:visited {
 
   transition: background-color 0.3s ease-in-out;
 }
-.article-container2:hover{
+.article-container2:hover {
   background-color: #267dff;
 }
 .span-good {
@@ -1137,9 +1149,8 @@ li:hover {
   cursor: pointer;
 }
 
-.nav-link:hover {
-  transform: scale(1.1);
-  color: #ffffff;
+.nav-link {
+  color: white;
   text-decoration: none;
 }
 
@@ -1165,7 +1176,7 @@ li:hover {
   height: 60px;
 }
 
-.start-text{
+.start-text {
   text-align: center;
 }
 
@@ -1291,5 +1302,3 @@ li:hover {
   opacity: 0;
   transition: opacity ease-in-out 0.25s;
 }
-
-/* media query */
