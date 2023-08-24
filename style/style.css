@@ -8,11 +8,22 @@
 a:link {
   color: white;
   text-decoration: none;
+  transition: color;
 }
 
+.a:hover {
+  transform: scale(1.1);
+  text-decoration: none;
+  color: #267dff;
+}
 a:visited {
   color: white;
   text-decoration: none;
+  transition: color;
+}
+
+a:visited:hover {
+  color: #267dff;
 }
 .hero-section {
   height: 100vh;
@@ -1043,9 +1054,8 @@ li:hover {
   cursor: pointer;
 }
 
-.nav-link:hover {
-  transform: scale(1.1);
-  color: #ffffff;
+.nav-link {
+  color: white;
   text-decoration: none;
 }
 
