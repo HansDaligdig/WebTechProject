@@ -3,6 +3,17 @@
   src: url(assets/Font/Poppins-Regular.ttf);
 }
 
+a{
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #267dff;
+  transition: color 0.3s ease-in-out;
+}
 
 html{
     scroll-behavior: smooth;
@@ -89,7 +100,7 @@ body, h1, h2, h3, p, ul, li {
 /* Hero section styles */
 .hero {
   height: 100vh;
-  background-image: linear-gradient( to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3) ), url(/assets/hero.jpg);
+  background-image: linear-gradient( to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3) ), url(../assets/hero.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -206,7 +217,7 @@ border-radius: 31px;
 .career-image{
   width: 587px;
   height: 595px;
-  background: url("/assets/v22_19.png");
+  background: url("../assets/v22_19.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -223,7 +234,7 @@ border-radius: 31px;
 .career-image2{
   width: 587px;
   height: 595px;
-  background: url("/assets/v46_102.png");
+  background: url("../assets/v46_102.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -496,7 +507,7 @@ border-radius: 31px;
 .article1-img{
   width: 274px;
   height: 223px;
-  background: url("/assets/v22_41.PNG");
+  background: url("../assets/v22_41.PNG");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -555,7 +566,7 @@ border-radius: 31px;
 .article2-img{
   width: 273px;
   height: 223px;
-  background: url("/assets/v29_79.PNG");
+  background: url("../assets/v29_79.PNG");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -614,7 +625,7 @@ border-radius: 31px;
 .article3-img{
   width: 273px;
   height: 223px;
-  background: url("/assets/v29_80.PNG");
+  background: url("../assets/v29_80.PNG");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -707,7 +718,7 @@ border-radius: 31px;
 .news1-img {
   width: 274px;
   height: 223px;
-  background: url("/assets/v46_110.PNG");
+  background: url("../assets/v46_110.PNG");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -789,7 +800,7 @@ border-radius: 31px;
 .news2-img{
   width: 273px;
   height: 223px;
-  background: url("/assets/v46_116.PNG");
+  background: url("../assets/v46_116.PNG");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -822,7 +833,7 @@ border-radius: 31px;
 .news3-img {
   width: 273px;
   height: 223px;
-  background: url("/assets/v46_118.PNG");
+  background: url("../assets/v46_118.PNG");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -913,7 +924,7 @@ border-radius: 31px;
 .explore-img{
   width: 274px;
   height: 223px;
-  background: url("/assets/v46_110.PNG");
+  background: url("../assets/v46_110.PNG");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -970,7 +981,7 @@ border-radius: 31px;
 .explore-img2 {
   width: 273px;
   height: 223px;
-  background: url("/assets/v46_131.PNG");
+  background: url("../assets/v46_131.PNG");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1028,7 +1039,7 @@ border-radius: 31px;
 .explore-img3 {
   width: 273px;
   height: 223px;
-  background: url("/assets/v46_133.PNG");
+  background: url("../assets/v46_133.PNG");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
