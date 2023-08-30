@@ -1197,6 +1197,10 @@ li {
     display: flex; 
   }
 } */
+/* xs screen*/
+@media screen and (max-width: 475px) {
+  
+}
 
 /* Adjustments for smaller screens */
 @media screen and (max-width: 768px) {
@@ -1279,7 +1283,7 @@ li {
   text-align: center;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .burger-toggle:checked + .nav-links {
     display: block;
     position: absolute;
@@ -1315,3 +1319,4 @@ li {
     margin: 10px 0;
   }
 }
+
