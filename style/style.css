@@ -2217,6 +2217,7 @@ box-shadow: 0 5px 20px rbga(0,0,0,1.2);
   text-align: center;
   justify-content: center;
   align-items: center;
+  padding: 30px;
   padding-bottom: 0;
   padding-top: 0;
 }
