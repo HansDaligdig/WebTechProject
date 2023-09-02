@@ -141,7 +141,7 @@ a:hover {
   margin-right: auto;
   transition-duration: 0.4s;
   cursor: pointer;
-  height: 60px;
+  height: 40px;
   border-radius: 31px;
 }
 
@@ -527,7 +527,7 @@ img {
 
 .author {
   padding-left: 4%;
-  padding-top: 43%;
+  padding-top: 46%;
   font-size: 25px;
   color: black;
   margin: 0;
@@ -946,7 +946,7 @@ img {
     margin-right: auto;
     transition-duration: 0.4s;
     cursor: pointer;
-    height: 60px;
+    height: 40px;
     border-radius: 31px;
   }
 
@@ -1620,7 +1620,7 @@ img {
     margin-right: auto;
     transition-duration: 0.4s;
     cursor: pointer;
-    height: 50px;
+    height: 30px;
     border-radius: 31px;
   }
 
@@ -1764,7 +1764,7 @@ img {
     width: 186px;
     display: flex;
     justify-content: center;
-    font-size: 50px;
+    font-size: 20px;
     font-weight: bold;
     margin-left: auto;
     margin-right: auto;
@@ -2396,7 +2396,7 @@ img {
     width: 186px;
     display: flex;
     justify-content: center;
-    font-size: 50px;
+    font-size: 20px;
     font-weight: bold;
     margin-left: auto;
     margin-right: auto;
