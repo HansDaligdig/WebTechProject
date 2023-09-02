@@ -2307,7 +2307,7 @@ span.paragraph {
     text-align: center;
     color: #fff;
     padding: 20px;
-  }
+}
 
   .hero-title {
     font-size: 30px;
@@ -2407,6 +2407,8 @@ a:hover {
   margin-top: 20px;
   color: white;  
   text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 .flex-container2 {
   background-color: #181818;
@@ -2433,56 +2435,62 @@ a:hover {
   align-items: center;
 }
 .pie-chart {
+  justify-content: center;
   display: flex;
   grid-column: 1;
   grid-row: 2;
-  margin: 0;
-  float: none;
+  margin: 0px;
+  float: left;
   width: 100px;
   height: 98px;
   border-radius: 50%;
   background: conic-gradient(from 0deg, #41b8d5 0% 74%, #2d8bba 20% 26%);
-  font-size: 10px;
+  font-size: 20px;
+  align-items: center;
+  color: white;
 }
-
 .pie-chart2 {
+  align-items: center;
   display: flex;
+  justify-content: center;
   grid-column: 2;
   grid-row: 2;
   margin: 0;
-  float: none;
+  float: right;
   width: 100px;
   height: 98px;
   border-radius: 50%;
   background: conic-gradient(from 0deg, #41b8d5 0% 74%, #2d8bba 20% 26%);
-  font-size: 10px;
+  font-size: 20px;
+  color: white;
 }
 .pie-padding {
-  padding: 0;
+  padding-left: 90px;
   float: none;
 }
 .pie-padding1 {
-  padding: 0;
+  padding-right: 80px;
   float: none;
 }
 .pie-padding2 {
-  padding: 0;
+  padding-top: 50px;
   float: none;
 }
 .pie-padding3 {
-  padding: 0;
+  padding-left: 387px;
   float: none;
 }
 .pie-padding4 {
-  padding: 0;
+  padding-left: 150px;
   float: none;
 }
 .statistics-p {
+  width: 83vw;
   display: flex;
   grid-column: 1 / span 3;
   grid-row: 3;
   float: none;
-  font-size: 10px;
+  font-size: 15px;
   color: white;
 }
 .pie-chart3 {
@@ -2490,26 +2498,30 @@ a:hover {
   grid-row: 4;
   display: flex;
   margin: 0;
-  float: none;
+  float: left;
   width: 100px;
   height: 98px;
   border-radius: 50%;
-  background: conic-gradient(from 0deg, #41b8d5 0% 74%, #2d8bba 20% 26%);
-  font-size: 10px;
+  background: conic-gradient(from 0deg, #41b8d5 0% 56%, #2d8bba 20% 26%);
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
 .pie-chart4 {
+  color: white;
   grid-column: 2;
   grid-row: 4;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0;
-  float: none;
+  float: right;
   width: 100px;
   height: 98px;
   border-radius: 50%;
-  background: conic-gradient(from 0deg, #41b8d5 0% 74%, #2d8bba 20% 26%);
-  font-size: 10px;
+  background: conic-gradient(from 0deg, #41b8d5 0% 92%, #2d8bba 20% 26%);
+  font-size: 20px;
 }
 .pie-chart5 {
   grid-column: 3;
@@ -2522,8 +2534,9 @@ a:hover {
   width: 100px;
   height: 98px;
   border-radius: 50%;
-  background: conic-gradient(from 0deg, #41b8d5 0% 74%, #2d8bba 20% 26%);
-  font-size: 10px;
+  background: conic-gradient(from 0deg, #41b8d5 0% 20%, #2d8bba 20% 26%);
+  font-size: 20px;
+  color: white;
 }
 .statistics-p1 {
   grid-column: 1 / span 3;
@@ -2533,7 +2546,9 @@ a:hover {
   align-items: center;
   margin: 0;
   float: none;
-  font-size: 10px;  color: white;
+  font-size: 15px;
+  color: white;
+  width: 83vw;
 }
 .header-article {
   color: white;
