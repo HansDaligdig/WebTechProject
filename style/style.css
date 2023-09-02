@@ -1601,7 +1601,7 @@ img {
     background-color: #181818;
     padding: 20px;
     position: fixed;
-    width: 100%;
+    width: 97%;
     z-index: 1000;
     transition: background-color 0.3s ease-in-out;
   }
