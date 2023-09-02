@@ -478,6 +478,14 @@ img {
 }
 
 @media (min-width: 1025px) and (max-width: 1280px) {
+  a{
+    position: relative;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    bottom: 45px;
+
+  }
   #hero {
     height: 100vh;
     background-image: linear-gradient( to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3) ), url(../assets/hero.jpg);
@@ -708,7 +716,7 @@ img {
 }
 
 .header-article3 {
-  width: 46vw;
+  width: 58vw;
   padding-left: inherit;
   color: rgba(0, 0, 0, 1);
   font-family: Poppins;
@@ -825,6 +833,14 @@ img {
 }
 
 @media screen and (min-width: 1280px) and(max-width: 1536px) {
+  a{
+    position: relative;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    bottom: 45px;
+
+  }
   .navbar {
     position: sticky;
     justify-content: space-between;
@@ -1052,7 +1068,7 @@ img {
   }
 
   .header-article3 {
-    width: 50vw;
+    width: 48vw;
     padding-left: 4%;
     color: rgba(0, 0, 0, 1);
     font-family: Poppins;
