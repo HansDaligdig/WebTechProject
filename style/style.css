@@ -1388,7 +1388,7 @@ img {
   }
 }
 
-@media screen and (min-width: 641px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   #hero {
     height: 100vh;
     background-image: linear-gradient(
@@ -1416,12 +1416,16 @@ img {
     padding-top: 0px;
   }
 
+  #hero a{
+    top: -77px;
+  }
+
   a {
     text-decoration: none;
     color: white;
     transition: color 0.3s ease-in-out;
     position: relative;
-    top: -3px;
+    top: 1px;
   }
 
   .hero-button {
@@ -1690,6 +1694,14 @@ img {
     border-radius: 25px;
   }
 
+  .flex-container {
+    padding-top: 10%;
+    padding-left: 7%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10%;
+  }
+
   .hamburger {
     position: absolute;
     top: 5em;
@@ -1769,6 +1781,52 @@ img {
     transform: scale(1);
   }
 }
+
+@media screen and (max-width: 768px) {
+  .hero-title {
+    font-size: 42px;
+    font-family: Poppins;
+    color: white;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+#hero a {
+  top: -73px;
+}
+
+.pie-padding1 {
+  padding-left: 132px;
+  padding-top: 188px;
+  padding-bottom: 23px;
+}
+
+.pie-padding3 {
+  padding-top: 1px;
+  float: right;
+  padding-right: 48px;
+}
+
+.hero-button {
+  background-color: #267dff;
+    border: none;
+    color: white;
+    width: 139px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 26px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    height: 50px;
+    border-radius: 31px;
+}
+
+}
+
 /* small screens */
 @media screen and (max-width: 640px) {
   body {
