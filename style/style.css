@@ -629,7 +629,86 @@ img {
   }
 } */
 
+/* @media (min-width: 1281px) and (max-width: 1864) {
+  .hero-button {
+    background-color: #267dff;
+    border: none;
+    color: white;
+    width: 186px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 26px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    height: 60px;
+    border-radius: 31px;
+  }
+  .statistics-p {
+    float: right;
+    width: 49vw;
+    font-size: 24px;
+    padding-right: 64px;
+  }
+  .statistics-p1 {
+    padding-top: 5vw;
+    float: left;
+    width: 41vw;
+    font-size: 24px;
+    text-align: justify;
+  }
+  .pie-padding {
+    padding-top: 50px;
+    padding-left: 72px;
+  }
+  .pie-padding1 {
+    padding-left: 426px;
+  }
+  .pie-padding2 {
+    padding-top: 176px;
+    padding-right: 78px;
+    float: right;
+  }
+  .pie-padding3 {
+    padding-top: 401px;
+    float: right;
+  }
+  .pie-padding4 {
+    padding-top: 138px;
+    padding-right: -62px;
+    float: right;
+  }
+  .header-article3 {
+    width: 28vw;
+    padding-left: 4%;
+    color: rgba(0, 0, 0, 1);
+    font-family: Poppins;
+    font-weight: Bold;
+    font-size: 48px;
+    opacity: 1;
+    text-align: center;
+  }
+} */
+
 @media (min-width: 1000px) and (max-width: 1280px) {
+  #hero {
+    height: 100vh;
+    background-image: linear-gradient( to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3) ), url(../assets/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+  
   .hero-button {
     background-color: #267dff;
     border: none;
@@ -958,7 +1037,20 @@ img {
   padding-top: 190px;
   font-size: 26px;
 }
+
 @media screen and (min-width: 1280px) and(max-width: 1536px) {
+  .navbar {
+    position: sticky;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #181818;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
   .hero-button {
     background-color: #267dff;
     border: none;
@@ -1841,14 +1933,9 @@ img {
   body {
     background-color: #181818;
   }
-  .hero {
+  #hero {
     height: 100vh;
-    background-image: linear-gradient(
-        to top,
-        rgba(0, 0, 0, 0),
-        rgba(0, 0, 0, 0.3)
-      ),
-      url("../assets/hero.jpg");
+    background-image: linear-gradient( to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3) ), url(../assets/hero.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -1857,7 +1944,9 @@ img {
     align-items: center;
     text-align: center;
     color: #fff;
-  }
+    padding: 20px;
+}
+
   .hero-title {
     font-size: 30px;
     font-family: Poppins;
