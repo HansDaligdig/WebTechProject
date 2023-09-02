@@ -117,6 +117,7 @@ a {
   text-decoration: none;
   color: white;
   transition: color 0.3s ease-in-out;
+  font-family: Poppins;
 }
 
 a:hover {
@@ -130,7 +131,7 @@ a:hover {
   border: none;
   color: white;
   width: 186px;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   text-decoration: none;
   display: block;
@@ -481,11 +482,9 @@ img {
 
 @media screen and (min-width: 1280px) and(max-width: 1536px) {
   a{
-    position: relative;
     color: #fff;
     font-size: 20px;
     font-weight: bold;
-    bottom: 45px;
 
   }
   .navbar {
@@ -505,7 +504,7 @@ img {
     border: none;
     color: white;
     width: 186px;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     text-decoration: none;
     display: block;
@@ -837,11 +836,9 @@ img {
 }
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
   a {
-    position: relative;
     color: #fff;
     font-size: 20px;
     font-weight: bold;
-    bottom: 45px;
   }
   #hero {
     height: 100vh;
@@ -862,7 +859,7 @@ img {
     border: none;
     color: white;
     width: 186px;
-    padding: 20px;
+    padding: 5px;
     text-align: center;
     text-decoration: none;
     display: block;
@@ -1214,10 +1211,6 @@ img {
     color: white;
     padding-bottom: 0px;
     padding-top: 0px;
-  }
-
-  #hero a{
-    top: -77px;
   }
 
   a {
@@ -1590,9 +1583,6 @@ img {
     padding-bottom: 0px;
     padding-top: 0px;
 }
-#hero a {
-  top: -73px;
-}
 
 .pie-padding1 {
   padding-left: 132px;
@@ -1611,11 +1601,11 @@ img {
     border: none;
     color: white;
     width: 139px;
-    padding: 20px;
+    padding: 8px;
     text-align: center;
     text-decoration: none;
     display: block;
-    font-size: 26px;
+    font-size: 20px;
     font-weight: bold;
     margin-left: auto;
     margin-right: auto;
