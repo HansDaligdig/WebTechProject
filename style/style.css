@@ -362,20 +362,20 @@ img {
 }
 
 .pie-padding {
-  padding-left: 50px;
+  padding-left: 5px;
 }
 
 .pie-padding1 {
-  padding-left: 485px;
+  padding-left: 130px;
 }
 
 .pie-padding2 {
-  padding-top: 230px;
-  padding-right: 48px;
+  padding-top: 290px;
+  padding-right: 50px;
   float: right;
 }
 .pie-padding3 {
-  padding-top: 500px;
+  padding-top: 1vw;
   float: right;
 }
 .pie-padding4 {
@@ -882,7 +882,7 @@ img {
 }
 .pie-padding4 {
   padding-top: 45px;
-  padding-block: 50px;
+  padding-block: 0px;
   padding-left: 55px;
   float: left;
 }
@@ -925,8 +925,8 @@ img {
 }
 
 .header-article3 {
-  width: 50vw;
-  padding-left: 4%;
+  width: 46vw;
+  padding-left: inherit;
   color: rgba(0, 0, 0, 1);
   font-family: Poppins;
   font-weight: Bold;
