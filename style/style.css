@@ -478,17 +478,9 @@ img {
   border-radius: 10px;
 }
 
-
-.article-image {
-  position: relative;
-  top: 98px;
-  left: -70px;
-  display: flex;
-  grid-row: 3;
-  grid-column: 1;
-  margin-left: 10%;
-  justify-content: center;
-  align-items: center;
+.image-padding2{
+  padding-left: 20vw;
+  padding-right: 15vw;
 }
 
 .author-picture {
@@ -506,9 +498,6 @@ img {
   text-align: center;
   justify-content: center;
   align-items: center;
-  position: relative;
-  top: -866px;
-  left: 10px;
   font-size: 30px;
   padding: 50px;
   padding-bottom: 0;
@@ -534,33 +523,22 @@ img {
 .author-picture {
   width: 100px;
   height: 100px;
-  position: relative;
-  top: 81px;
-  left: -78px;
 }
 
 .author {
-  position: relative;
-  padding-left: 33%;
-  top: 109px;
-  left: -302px;
+  padding-left: 4%;
+  padding-top: 43%;
   font-size: 25px;
   color: black;
   margin: 0;
-  bottom: 80px;
-  margin-bottom: -200px;
 }
 
 .date-published {
-  left: -298px;
-  top: 207px;
-  position: relative;
-  padding-left: 33%;
+  padding-left: 4%;
   font-size: 25px;
   color: black;
   margin: 0;
   bottom: 55px;
-  margin-bottom: -200px;
 }
 
 .article-text {
@@ -573,11 +551,7 @@ img {
   padding-bottom: 0;
   top: 18em;
   margin-bottom: 10px;
-  
 }
-
-
-
 
 @media screen and (min-width: 1280px) and(max-width: 1536px) {
   a{
@@ -2140,20 +2114,20 @@ justify-content: center;
 }
 .author {
   position: relative;
-  padding-left: 33%;
+  padding-left: 12%;
   font-size: 18px;
   color: white;
   margin: 0;
-  bottom: 80px;
+  bottom: 212px;
   margin-bottom: -200px;
 }
 .date-published {
   position: relative;
-  padding-left: 33%;
+  padding-left: 12%;
   font-size: 18px;
   color: white;
   margin: 0;
-  bottom: 55px;
+  bottom: 4px;
   margin-bottom: -200px;
 }
 .article-text {
