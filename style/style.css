@@ -576,9 +576,6 @@ img {
   
 }
 
-
-
-
 @media screen and (min-width: 1280px) and(max-width: 1536px) {
   a{
     color: #fff;
@@ -1594,16 +1591,15 @@ img {
     padding-bottom: 10%;
   }
 
-  .navbar {
-    position: sticky;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #181818;
-    padding: 20px;
-    position: fixed;
-    width: 97%;
-    z-index: 1000;
-    transition: background-color 0.3s ease-in-out;
+  .hamburger {
+    position: absolute;
+    top: 5em;
+    right: 5%;
+    margin-left: -2em;
+    margin-top: -45px;
+    width: 2em;
+    height: 45px;
+    z-index: 5;
   }
 }
 
@@ -1645,6 +1641,105 @@ img {
     cursor: pointer;
     height: 50px;
     border-radius: 31px;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 100%;
+  height: 4px;
+  background-color: white;
+  position: absolute;
+  transition: 0.4s;
+}
+
+.bar1 {
+  top: 10px;
+}
+.bar2 {
+  top: 20px;
+}
+.bar3 {
+  top: 30px;
+}
+
+.hamburger {
+  margin-right: 2em;
+  margin-top: -63px;
+  width: 2em;
+  height: 45px;
+  z-index: 5;
+}
+
+.hamburger div {
+  position: relative;
+  width: 3em;
+  height: 7px;
+  border-radius: 3px;
+  background-color: white;
+  margin-top: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-links {
+  flex-direction: column;
+  align-items: flex-start;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  overflow: hidden;
+  transform: scale(0);
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-wrapper {
+  position: relative;
+  overflow: hidden;
+  overflow-y: auto;
+  height: 100%;
+}
+
+.nav-links {
+  text-align: left;
+}
+
+.nav-links a {
+  position: relative;
+  text-decoration: none;
+  color: white;
+  text-align: left;
+  font-size: 2.5em;
+  font-family: "Poppins";
+  display: block;
+  transition: color 0.2s ease-in-out;
+  margin-bottom: 100px;
+  letter-spacing: 1px;
+}
+
+.nav-links a:hover {
+  color: black;
+  font-weight: bolder;
+}
+
+
+#toggle:checked + .hamburger .bar1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+  margin-top: 0px;
+}
+
+#toggle:checked + .hamburger .bar2 {
+  opacity: 0;
+}
+
+#toggle:checked + .hamburger .bar3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+  margin-top: -4px;
+}
+
+#toggle:checked + .hamburger + .nav-links {
+  top: 0;
+  transform: scale(1);
 }
 }
 
@@ -2173,12 +2268,27 @@ justify-content: center;
   padding-top: 0;
 }
 
-.hamburger {
+.bar1, .bar2, .bar3 {
+  width: 100%;
+  height: 4px;
+  background-color: white;
   position: absolute;
-  top: 56px;
-  left: 600px;
-  margin-left: -2em;
-  margin-top: -45px;
+  transition: 0.4s;
+}
+
+.bar1 {
+  top: 10px;
+}
+.bar2 {
+  top: 20px;
+}
+.bar3 {
+  top: 30px;
+}
+
+.hamburger {
+  margin-right: 2em;
+  margin-top: -63px;
   width: 2em;
   height: 45px;
   z-index: 5;
@@ -2196,7 +2306,7 @@ justify-content: center;
 
 .nav-links {
   flex-direction: column;
-  align-items: flex-start; 
+  align-items: flex-start;
   position: fixed;
   top: 0;
   left: 0;
@@ -2214,9 +2324,11 @@ justify-content: center;
   overflow-y: auto;
   height: 100%;
 }
+
 .nav-links {
   text-align: left;
 }
+
 .nav-links a {
   position: relative;
   text-decoration: none;
@@ -2235,17 +2347,19 @@ justify-content: center;
   font-weight: bolder;
 }
 
+
 #toggle:checked + .hamburger .bar1 {
-  transform: rotate(-45deg);
-  margin-top: 25px;
+  transform: rotate(-45deg) translate(-5px, 6px);
+  margin-top: 0px;
 }
-#toggle:checked + .hamburger .bar3 {
-  opacity: 0;
-  transform: rotate(45deg);
-}
+
 #toggle:checked + .hamburger .bar2 {
-  transform: rotate(45deg);
-  margin-top: -7px;
+  opacity: 0;
+}
+
+#toggle:checked + .hamburger .bar3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+  margin-top: -4px;
 }
 
 #toggle:checked + .hamburger + .nav-links {
@@ -2757,11 +2871,8 @@ span.paragraph {
 }
 
 .hamburger {
-  position: absolute;
-  top: 56px;
-  left: 600px;
-  margin-left: -2em;
-  margin-top: -45px;
+  margin-right: 2em;
+  margin-top: -63px;
   width: 2em;
   height: 45px;
   z-index: 5;
@@ -2819,16 +2930,17 @@ span.paragraph {
 }
 
 #toggle:checked + .hamburger .bar1 {
-  transform: rotate(-45deg);
-  margin-top: 25px;
+  transform: rotate(-45deg) translate(-5px, 6px);
+  margin-top: 0px;
 }
-#toggle:checked + .hamburger .bar3 {
-  opacity: 0;
-  transform: rotate(45deg);
-}
+
 #toggle:checked + .hamburger .bar2 {
-  transform: rotate(45deg);
-  margin-top: -7px;
+  opacity: 0;
+}
+
+#toggle:checked + .hamburger .bar3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+  margin-top: -4px;
 }
 
 #toggle:checked + .hamburger + .nav-links {
