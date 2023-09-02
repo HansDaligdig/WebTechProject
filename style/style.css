@@ -658,31 +658,32 @@ img {
     padding-right: 90px;
     float: right;
   }
-.pie-padding3 {
-  padding-top: 45px;
-  float: right;
-}
-.pie-padding4 {
-  padding-top: 45px;
-  padding-block: 0px;
-  padding-left: 55px;
-  float: left;
-}
 
-.statistics-p {
-  float: right;
-  width: 60vw;
-  font-size: 24px;
-  padding-right: 1px;
-}
+  .pie-padding3 {
+    padding-top: 45px;
+    float: right;
+  }
+  .pie-padding4 {
+    padding-top: 45px;
+    padding-block: 0px;
+    padding-left: 55px;
+    float: left;
+  }
 
-.statistics-p1 {
-  padding-top: 10vw;
-  float: left;
-  width: 57vw;
-  font-size: 24px;
-  text-align: justify;
-}
+  .statistics-p {
+    float: right;
+    width: 60vw;
+    font-size: 24px;
+    padding-right: 1px;
+  }
+
+  .statistics-p1 {
+    padding-top: 10vw;
+    float: left;
+    width: 57vw;
+    font-size: 24px;
+    text-align: justify;
+  }
 
 .header-article {
   width: 190px;
@@ -822,6 +823,7 @@ img {
   font-size: 26px;
 }
 }
+
 @media screen and (min-width: 1280px) and(max-width: 1536px) {
   .navbar {
     position: sticky;
@@ -929,12 +931,12 @@ img {
   }
 
   .image {
-    flex: 1; /* Take up available space */
-    margin-right: 20px; /* Adjust spacing between image and text */
+    flex: 1; 
+    margin-right: 20px; 
   }
 
   .text {
-    flex: 1; /* Take up more space than the image */
+    flex: 1; 
     font-size: 28px;
     padding-right: 50px;
   }
