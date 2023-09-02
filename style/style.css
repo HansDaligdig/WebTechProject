@@ -1853,6 +1853,7 @@ img {
     padding-bottom: 20px;
     padding-top: 15px;
     margin: 0;
+    margin-bottom: 30px;
   }
   .hero-button {
     background-color: black;
@@ -1930,7 +1931,7 @@ a:hover {
   align-items: center;
   margin: 0;
 }
-#introduction h2 {
+#introduction .text h2 {
   display: flex;
   grid-column: 1;
   grid-row: 2;
@@ -1985,7 +1986,7 @@ a:hover {
   grid-row: 1;
   display: flex;
   color: white;
-  font-size: 30px;
+  font-size: 40px;
   justify-content: center;
   align-items: center;
   margin-bottom: 0;
@@ -2003,6 +2004,7 @@ a:hover {
   background: conic-gradient(from 0deg, #41b8d5 0% 74%, #2d8bba 20% 26%);
   font-size: 20px;
   align-items: center;
+  margin-left: -50px;
   color: white;
 }
 .pie-chart2 {
@@ -2018,7 +2020,7 @@ a:hover {
   border-radius: 50%;
   background: conic-gradient(from 0deg, #41b8d5 0% 74%, #2d8bba 20% 26%);
   font-size: 20px;
-  margin-right: 60px;
+  margin-right: 15%;
   color: white;
 }
 .pie-padding {
@@ -2026,7 +2028,7 @@ a:hover {
   float: none;
 }
 .pie-padding1 {
-  padding-right: 80px;
+  padding: 0;
   float: none;
 }
 .pie-padding2 {
@@ -2038,9 +2040,8 @@ a:hover {
   float: none;
 }
 .pie-padding4 {
-  padding-left: 10px;
   float: none;
-  padding-top: 0;
+  padding: 0;
 }
 .statistics-p {
   width: 83vw;
@@ -2080,7 +2081,7 @@ a:hover {
   height: 98px;
   border-radius: 50%;
   background: conic-gradient(from 0deg, #41b8d5 0% 92%, #2d8bba 20% 26%);
-  margin-right: 20px;
+  margin-right: -10%;
   font-size: 20px;
 }
 .pie-chart5 {
@@ -2147,7 +2148,7 @@ div.container3 {
   position: relative;
   height: 550px;
   background:white;
-  margin-left: 20%;
+  margin-left: 15%;
 }
 .article-container .card .imgBx{
 position: relative;
@@ -2161,7 +2162,8 @@ justify-content: center;
   justify-content: center;
   align-items: center;
   max-width: 90%;
-  margin-top: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   }
 .article-container:hover .card:hover{
   background-color: #2E2C2C
@@ -2457,6 +2459,7 @@ justify-content: center;
     padding-bottom: 20px;
     padding-top: 15px;
     margin: 0;
+    margin-bottom: 30px;
   }
   .hero-button {
     background-color: black;
@@ -2517,7 +2520,7 @@ a:hover {
   align-items: center;
   margin: 0;
 }
-#introduction h2 {
+#introduction .text h2 {
   display: flex;
   grid-column: 1;
   grid-row: 2;
@@ -2593,6 +2596,7 @@ a:hover {
   background: conic-gradient(from 0deg, #41b8d5 0% 74%, #2d8bba 20% 26%);
   font-size: 20px;
   align-items: center;
+  margin-left: -50px;
   color: white;
 }
 .pie-chart2 {
@@ -2608,7 +2612,8 @@ a:hover {
   border-radius: 50%;
   background: conic-gradient(from 0deg, #41b8d5 0% 74%, #2d8bba 20% 26%);
   font-size: 20px;
-  margin: 0;
+  align-items: center;
+  margin-right: 50px;
   color: white;
 }
 .pie-padding {
@@ -2616,7 +2621,7 @@ a:hover {
   float: none;
 }
 .pie-padding1 {
-  padding-right: 80px;
+  padding: 0;
   float: none;
 }
 .pie-padding2 {
@@ -2628,7 +2633,7 @@ a:hover {
   float: none;
 }
 .pie-padding4 {
-  padding-left: 10px;
+  padding: 0;
   float: none;
 }
 .statistics-p {
@@ -2647,8 +2652,8 @@ a:hover {
   display: flex;
   margin: 0;
   float: left;
-  width: 100px;
-  height: 98px;
+  width: 85px;
+  height: 82px;
   border-radius: 50%;
   background: conic-gradient(from 0deg, #41b8d5 0% 56%, #2d8bba 20% 26%);
   font-size: 20px;
@@ -2665,11 +2670,12 @@ a:hover {
   align-items: center;
   margin: 0;
   float: right;
-  width: 100px;
-  height: 98px;
+  width: 85px;
+  height: 82px;
   border-radius: 50%;
   background: conic-gradient(from 0deg, #41b8d5 0% 92%, #2d8bba 20% 26%);
   font-size: 20px;
+  margin-right: -50px;
 }
 .pie-chart5 {
   grid-column: 3;
@@ -2679,8 +2685,8 @@ a:hover {
   align-items: center;
   margin: 0;
   float: none;
-  width: 100px;
-  height: 98px;
+  width: 85px;
+  height: 82px;
   border-radius: 50%;
   background: conic-gradient(from 0deg, #41b8d5 0% 20%, #2d8bba 20% 26%);
   font-size: 20px;
@@ -2722,7 +2728,6 @@ a:hover {
 }
 .article-container {
   margin: 0;
-  margin-left: 5%;
   padding: 0px
 }
 .article-container .card{
