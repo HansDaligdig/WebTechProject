@@ -466,6 +466,7 @@ img {
   align-items: center;
   flex-wrap: wrap;
   padding: 30px;
+
 }
 
 .article-container2 {
@@ -969,6 +970,8 @@ img {
   align-items: center;
   flex-wrap: wrap;
   padding: 35px;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .article-container2 {
@@ -1310,6 +1313,8 @@ img {
     align-items: center;
     flex-wrap: wrap;
     padding: 35px;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .article-container2 {
@@ -1668,6 +1673,8 @@ img {
     align-items: center;
     flex-wrap: wrap;
     padding: 20px;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .article-container .card {
